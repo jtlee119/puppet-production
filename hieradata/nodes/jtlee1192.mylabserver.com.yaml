@@ -1,0 +1,11 @@
+---
+profile::apache::apache_vhost_servers: {
+  'jtlee1192.mylabserver.com': {
+    port   : 80,
+    docroot: '/var/www/jtlee1192'
+  },
+  'jtlee1192b.mylabserver.com': {
+    port   : 80,
+    docroot: '/var/www/jtlee1192b'
+  }
+}
